@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Outfit';
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    background-color: #BFCCB5;
+}
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 1rem 4rem;
+    flex: 1;
+}
+
+main .profile {
+    flex: 1;
+    display: flex;
+    margin: 40px 0;
+}
+
+main .profile .foto-profile {
+    flex: 1 1;
+}
+   
+main .profile .foto-profile img {
+    margin: auto;
+    width: 200px;
+    border-radius: 8px;
+}
+
+main .profile .description {
+    margin-left: 90px;
+}
+
+main aside {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-end: 0;
+}
+   
+main aside .profile-sosmed {
+    height: 80%;
+    display: flex;
+}
+   
+main aside .profile-sosmed ul {
+    padding: 1.5rem 1rem;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #7C96AB;
+   
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+main aside .profile-sosmed li {
+    list-style-type: none;
+}
+
+main aside .profile-sosmed a {
+    color: aliceblue;
+}
+
+footer {
+    padding: 1px;
+    color: white;
+    background-color: #B7B7B7;
+    text-align: center;
+}
